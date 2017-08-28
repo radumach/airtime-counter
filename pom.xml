@@ -4,6 +4,9 @@
 	<groupId>ro.ar</groupId>
 	<artifactId>airtime-counter</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
+	<organization>
+	<name>Aeroclubul Romaniei</name>
+	</organization>
 	<build>
 		<plugins>
 			<plugin>
@@ -20,6 +23,7 @@
 				<version>8.6.0</version>
 				<configuration>
 					<mainClass>ro.ar.counter.Main</mainClass>
+					<identifier>ARCounter</identifier>
 				</configuration>
 			</plugin>
 		</plugins>
